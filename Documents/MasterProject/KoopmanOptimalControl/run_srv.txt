@@ -1,0 +1,35 @@
+#!/bin/bash
+
+python runSRV.py --trajectoryfile 4well_langevin_temp45_points10000x1_damping0.25 --n_eig 7 --tau 100 --reversible False 
+
+wait
+python runSRV.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.0 --n_eig 7 --tau 2 --reversible True 
+
+python runSRV.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.0 --n_eig 7 --tau 11 --reversible True 
+
+python runSRV.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.0 --n_eig 7 --tau 101 --reversible True 
+
+python runSRV.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.25 --n_eig 7 --tau 1 --reversible False 
+
+python runSRV.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.25 --n_eig 7 --tau 10 --reversible False 
+
+python runSRV.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.25 --n_eig 7 --tau 100 --reversible False 
+wait
+
+python runSRV.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.0 --n_eig 7 --tau 2 --reversible True 
+
+python runSRV.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.0 --n_eig 7 --tau 11 --reversible True 
+
+python runSRV.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.0 --n_eig 7 --tau 101 --reversible True 
+
+python runSRV.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.25 --n_eig 7 --tau 1 --reversible False 
+
+python runSRV.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.25 --n_eig 7 --tau 10 --reversible False 
+
+python runSRV.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.25 --n_eig 7 --tau 100 --reversible False 
+
+
+
+
+
+

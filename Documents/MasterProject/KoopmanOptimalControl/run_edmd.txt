@@ -1,0 +1,39 @@
+#!/bin/bash
+
+
+python runEDMD.py --trajectoryfile singlewell_restarts_temp1_points10x1000_damping0.25 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile singlewell_restarts_temp1_points10x1000_damping0.25 --n_eig 10 --tau 1
+
+python runEDMD.py --trajectoryfile 2well_restarts_temp1_points10x1000_damping0.25 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile 2well_restarts_temp1_points10x1000_damping0.25 --n_eig 10 --tau 1
+
+python runEDMD.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.25 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.25 --n_eig 10 --tau 1
+
+python runEDMD.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.25 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.25 --n_eig 10 --tau 1
+
+python runEDMD.py --trajectoryfile singlewell_restarts_temp1_points10x1000_damping0.0 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile singlewell_restarts_temp1_points10x1000_damping0.0 --n_eig 10 --tau 1
+
+python runEDMD.py --trajectoryfile 2well_restarts_temp1_points10x1000_damping0.0 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile 2well_restarts_temp1_points10x1000_damping0.0 --n_eig 10 --tau 1
+
+python runEDMD.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.0 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile duffing_restarts_temp1_points10x1000_damping0.0 --n_eig 10 --tau 1
+
+python runEDMD.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.0 --n_eig 10 --tau 10
+
+python runEDMD.py --trajectoryfile 4well_restarts_temp1_points2x1000_damping0.0 --n_eig 10 --tau 1
+
+
+
+
+

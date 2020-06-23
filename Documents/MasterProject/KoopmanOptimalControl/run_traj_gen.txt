@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential duffing --trajectoryType langevin --n_starts 1 --timestep 0.01 --drag 0.25 --temperature 15 --traj_len 10000 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential duffing --trajectoryType restarts --n_starts 1000 --timestep 0.1 --drag 0.25 --temperature 1 --traj_len 10 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential duffing --trajectoryType restarts --n_starts 1000 --timestep 0.1 --drag 0.0 --temperature 1 --traj_len 10 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential singlewell --trajectoryType langevin --n_starts 1 --timestep 0.01 --drag 0.25 --temperature 15 --traj_len 10000 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential singlewell --trajectoryType restarts --n_starts 1000 --timestep 0.1 --drag 0.25 --temperature 1 --traj_len 10 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential singlewell --trajectoryType restarts --n_starts 1000 --timestep 0.1 --drag 0.0 --temperature 1 --traj_len 10 &
+
+wait
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential 2well --trajectoryType langevin --n_starts 1 --timestep 0.01 --drag 0.25 --temperature 15 --traj_len 10000 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential 2well --trajectoryType restarts --n_starts 1000 --timestep 0.1 --drag 0.25 --temperature 1 --traj_len 10 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential 2well --trajectoryType restarts --n_starts 1000 --timestep 0.1 --drag 0.0 --temperature 1 --traj_len 10 &
+
+python generateTrajectory.py --saveloc Trajectories/ --potential 4well --trajectoryType langevin --n_starts 1 --timestep 0.01 --drag 0.25 --temperature 45 --traj_len 10000 &
+
+python generateTrajectory.py --saveloc Trajectories/ --potential 4well --trajectoryType langevin --n_starts 1 --timestep 0.01 --drag 0.25 --temperature 40 --traj_len 10000 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential 4well --trajectoryType restarts --n_starts 1000 --timestep 0.01 --drag 0.25 --temperature 1 --traj_len 2 &
+
+#python generateTrajectory.py --saveloc Trajectories/ --potential 4well --trajectoryType restarts --n_starts 1000 --timestep 0.01 --drag 0.0 --temperature 1 --traj_len 2 &
